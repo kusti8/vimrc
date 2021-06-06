@@ -1,0 +1,51 @@
+[submodule "pack/packages/start/YankRing.vim"]
+	path = pack/packages/start/YankRing.vim
+	url = https://github.com/vim-scripts/YankRing.vim
+[submodule "pack/packages/start/ale"]
+	path = pack/packages/start/ale
+	url = https://github.com/dense-analysis/ale
+[submodule "pack/packages/start/coc.nvim"]
+	path = pack/packages/start/coc.nvim
+	url = https://github.com/neoclide/coc.nvim
+[submodule "pack/packages/start/commentary"]
+	path = pack/packages/start/commentary
+	url = https://github.com/tpope/vim-commentary
+[submodule "pack/packages/start/fugitive"]
+	path = pack/packages/start/fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule "pack/packages/start/fzf.vim"]
+	path = pack/packages/start/fzf.vim
+	url = https://github.com/junegunn/fzf.vim
+[submodule "pack/packages/start/nerdtree"]
+	path = pack/packages/start/nerdtree
+	url = https://github.com/preservim/nerdtree
+[submodule "pack/packages/start/rainbow"]
+	path = pack/packages/start/rainbow
+	url = https://github.com/luochen1990/rainbow
+[submodule "pack/packages/start/tmuxline.vim"]
+	path = pack/packages/start/tmuxline.vim
+	url = https://github.com/edkolev/tmuxline.vim
+[submodule "pack/packages/start/vim-airline-themes"]
+	path = pack/packages/start/vim-airline-themes
+	url = https://github.com/vim-airline/vim-airline-themes
+[submodule "pack/packages/start/vim-airline"]
+	path = pack/packages/start/vim-airline
+	url = https://github.com/vim-airline/vim-airline
+[submodule "pack/packages/start/vim-indent-guides"]
+	path = pack/packages/start/vim-indent-guides
+	url = https://github.com/nathanaelkane/vim-indent-guides
+[submodule "pack/packages/start/vim-numbertoggle"]
+	path = pack/packages/start/vim-numbertoggle
+	url = https://github.com/jeffkreeftmeijer/vim-numbertoggle
+[submodule "pack/packages/start/vim-polyglot"]
+	path = pack/packages/start/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot
+[submodule "pack/packages/start/vim-searchindex"]
+	path = pack/packages/start/vim-searchindex
+	url = https://github.com/google/vim-searchindex
+[submodule "pack/packages/start/vim-tmux-navigator"]
+	path = pack/packages/start/vim-tmux-navigator
+	url = https://github.com/christoomey/vim-tmux-navigator
+[submodule "pack/packages/start/vim-visual-multi"]
+	path = pack/packages/start/vim-visual-multi
+	url = https://github.com/mg979/vim-visual-multi

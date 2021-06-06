@@ -1,0 +1,83 @@
+myhelp.txt           For Vim version 8.0       Last change: 2021 June 6
+
+Personal cheatsheet                                      myhelp
+
+1. Searching         |k8-searching|
+2. File management   |k8-file-management|
+3. Navigating        |k8-navigating|
+4. Editing           |k8-editing|
+
+===================================================================
+1. Searching                                            *searching*
+
+<C-P>
+	Search for files by their name in the current directory.
+
+:GFiles
+	Search for git files by their name in the current directory.
+
+:Rg {pattern}
+	Search all file contents for a ripgrep pattern
+
+:Buffers
+	Search for text in all the buffers (instead of just one like with /)
+
+===================================================================
+2. File management                                     *file-management*
+
+<Leader>1
+	Open file explorer for the current directory.
+
+:Git {param}
+	Easily run git commands
+
+===================================================================
+3. Navigating                                        *navigating*
+
+:YRShow
+	Show full selectable copy history
+
+<leader>sv
+	Split vertically (or horizontally with sh)
+
+<C-a> hjkl
+	Navigate between tmux screens
+
+<C-a> c
+	Create a new tmux window (bottom tabs)
+
+<C-a> n
+	Go to the next window
+
+<C-a> p
+	Go to the previous window
+
+<C-a> 1...9
+	Go to window 1 through 9
+
+<C-a> ,
+	Rename current window
+
+<C-a> h/y
+	Horizontal or vertical split
+
+<C-a> <C-hjkl>
+	Resize panes
+
+<C-a> {/}
+	move current pane to previous or next position
+
+<C-a> <C-o>
+	rotate all the panes
+
+===================================================================
+4. Editing                                                *editing*
+
+gcc
+	Comment out a line
+
+gc
+	Comment out target of a motion (like when selecting stuff etc)
+
+<C-N>
+	Select multiple works (like Ctrl-d)
