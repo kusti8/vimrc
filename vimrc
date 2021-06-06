@@ -58,6 +58,8 @@ nmap <leader>s :Lines<cr>
 nmap <leader>sb :BLines<cr>
 nmap <leader>q :Bdelete<cr>
 nmap <F3> :Autoformat<cr>
+nmap <silent> gd <Plug>(coc-definition)
+nmap <leader>v :Vista coc<cr>
 
 set ignorecase
 

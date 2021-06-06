@@ -31,6 +31,12 @@ Personal cheatsheet                                      myhelp
 <leader>m
 	See the marks in the buffer
 
+<leader>v
+	Show outline of the file
+
+<gd>
+	Go to defintion of function
+
 ===================================================================
 2. File management                                     *k8-file-management*
 

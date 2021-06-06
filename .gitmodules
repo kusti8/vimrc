@@ -58,3 +58,9 @@
 [submodule "pack/packages/start/vim-bbye"]
 	path = pack/packages/start/vim-bbye
 	url = https://github.com/moll/vim-bbye
+[submodule "pack/packages/start/vim-signature"]
+	path = pack/packages/start/vim-signature
+	url = https://github.com/kshenoy/vim-signature
+[submodule "pack/packages/start/vista.vim"]
+	path = pack/packages/start/vista.vim
+	url = https://github.com/liuchengxu/vista.vim.git
