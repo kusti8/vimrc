@@ -39,7 +39,7 @@ let g:airline_theme='onehalfdark'
 
 source ~/.vim/coc.vim
 
-nnoremap <Leader>b :ls<CR>:b<Space>
+" nnoremap <Leader>b :ls<CR>:b<Space>
 
 set nostartofline
 set clipboard=unnamed
@@ -51,6 +51,13 @@ nmap <leader>sv :vsplit<cr>
 nmap <leader>sh :split<cr>
 
 nmap <leader>1 :NERDTreeToggle<cr>
+nmap <leader>yr :YRShow<cr>
+nmap <leader>b :Buffers<cr>
+nmap <leader>m :Marks<cr>
+nmap <leader>s :Lines<cr>
+nmap <leader>sb :BLines<cr>
+nmap <leader>q :Bdelete<cr>
+nmap <F3> :Autoformat<cr>
 
 set ignorecase
 

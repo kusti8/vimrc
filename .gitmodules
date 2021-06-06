@@ -49,3 +49,12 @@
 [submodule "pack/packages/start/vim-visual-multi"]
 	path = pack/packages/start/vim-visual-multi
 	url = https://github.com/mg979/vim-visual-multi
+[submodule "pack/packages/start/vim-autoformat"]
+	path = pack/packages/start/vim-autoformat
+	url = https://github.com/vim-autoformat/vim-autoformat
+[submodule "pack/packages/start/vim-sayonara"]
+	path = pack/packages/start/vim-sayonara
+	url = https://github.com/mhinz/vim-sayonara
+[submodule "pack/packages/start/vim-bbye"]
+	path = pack/packages/start/vim-bbye
+	url = https://github.com/moll/vim-bbye

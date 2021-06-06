@@ -8,7 +8,7 @@ Personal cheatsheet                                      myhelp
 4. Editing           |k8-editing|
 
 ===================================================================
-1. Searching                                            *searching*
+1. Searching                                            *k8-searching*
 
 <C-P>
 	Search for files by their name in the current directory.
@@ -19,11 +19,20 @@ Personal cheatsheet                                      myhelp
 :Rg {pattern}
 	Search all file contents for a ripgrep pattern
 
-:Buffers
-	Search for text in all the buffers (instead of just one like with /)
+<leader>b
+	See all the buffers
+
+<leader>s
+	Search all the buffers
+
+<leader>sb
+	Search current buffer
+
+<leader>m
+	See the marks in the buffer
 
 ===================================================================
-2. File management                                     *file-management*
+2. File management                                     *k8-file-management*
 
 <Leader>1
 	Open file explorer for the current directory.
@@ -32,9 +41,12 @@ Personal cheatsheet                                      myhelp
 	Easily run git commands
 
 ===================================================================
-3. Navigating                                        *navigating*
+3. Navigating                                        *k8-navigating*
 
-:YRShow
+<leader>q
+	Close the current file
+
+<leader>yr
 	Show full selectable copy history
 
 <leader>sv
@@ -71,7 +83,7 @@ Personal cheatsheet                                      myhelp
 	rotate all the panes
 
 ===================================================================
-4. Editing                                                *editing*
+4. Editing                                                *k8-editing*
 
 gcc
 	Comment out a line
@@ -81,3 +93,6 @@ gc
 
 <C-N>
 	Select multiple works (like Ctrl-d)
+
+<F3>
+	Format the current document
