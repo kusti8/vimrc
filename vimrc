@@ -51,7 +51,6 @@ nmap <leader>sv :vsplit<cr>
 nmap <leader>sh :split<cr>
 
 nmap <leader>1 :NERDTreeToggle<cr>
-nmap <leader>yr :YRShow<cr>
 nmap <leader>b :Buffers<cr>
 nmap <leader>m :Marks<cr>
 nmap <leader>s :Lines<cr>
@@ -73,9 +72,7 @@ if exists('+termguicolors')
 endif
 
 set rtp+=~/.fzf
-function! YRRunAfterMaps()
-  nnoremap <c-p> :Files<cr>
-endfunction
+nnoremap <c-p> :Files<cr>
 
 if &term =~ '^xterm' || &term =~ '^tmux'
   " Cursor in terminal:
